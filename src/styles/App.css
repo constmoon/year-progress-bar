@@ -13,3 +13,10 @@ body > div {
   max-width: 960px;
   margin: 3rem auto 0;
 }
+
+@media screen and (max-width: 600px) {
+  body > div {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+}
